@@ -58,7 +58,6 @@ $(document).ready(function(){
 								if(destination.anchor == '3'){
 									$('.wrapper').stop().animate({scrollLeft:'10000'},15000);
 									$('.wrapper').css('overflow-x','')
-									$('.wrapper').css('-webkit-transform-origin-z',0);						
 								}else{
 									$('.wrapper').stop();
 									$('.wrapper').scrollLeft(0);
@@ -137,9 +136,7 @@ $(document).ready(function(){
 	$('.wrapper').click(function(){
 		$('.wrapper').stop();
 	});
-	$(".wrapper").on("touchmove", function(e){
-		$('.wrapper').stop();
-	});
+
 	$(".wrapper").mousedown(function(e){
 	  $('.wrapper').stop();
 	  $(this).css("cursor", "pointer");

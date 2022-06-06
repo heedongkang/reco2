@@ -483,10 +483,12 @@
 	  position: relative;
 	  z-index: 1;
 	  counter-reset: item;
-	  overflow-x: scroll;
+	  overflow-x: auto;
 	  white-space: nowrap;
 	  top: 50%;
 	  transform: translateY(-50%);
+	  -webkit-overflow-scrolling: touch;
+	  -ms-overflow-style: -ms-autohiding-scrollbar;	  
 	}	
 	
 	
@@ -1080,10 +1082,12 @@
 	  position: relative;
 	  z-index: 1;
 	  counter-reset: item;
-	  overflow-x: scroll;
+	  overflow-x: auto;
 	  white-space: nowrap;
 	  top: 50%;
 	  transform: translateY(-50%);
+	  -webkit-overflow-scrolling: touch;
+	  -ms-overflow-style: -ms-autohiding-scrollbar;	  
 	}
 	
 	
