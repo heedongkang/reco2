@@ -136,6 +136,7 @@ $(document).ready(function(){
 	});
 	
 	$(".wrapper").mousedown(function(e){
+	  $('.wrapper').stop();
 	  e.preventDefault();
 	  down = true;
 	  x = e.pageX;
