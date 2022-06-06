@@ -2,11 +2,13 @@
 	
 	.mainVisual{
 		width:100%;
+		height:100vh;
 		position:relative;
 	}
 	
 	.mainVisual .bg{
 		width:100%;
+		height:100vh;
 		overflow:hidden;
 	
 	}
@@ -596,11 +598,13 @@
 	
 	.mainVisual{
 		width:100%;
+		height:100vh;
 		position:relative;
 	}
 	
 	.mainVisual .bg{
 		width:100%;
+		height:100vh;
 		overflow:hidden;
 	
 	}
@@ -609,6 +613,7 @@
 		position:relative;
 		left:50%;
 		transform:translateX(-50%);
+		height:100vh;
 	}
 	
 	.mainVisual .txCont{

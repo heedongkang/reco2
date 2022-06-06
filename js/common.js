@@ -37,6 +37,7 @@ $(document).ready(function(){
 						autoScrolling: true,
 						lockAnchors: false,
 						fitToSection: true,
+						dragAndMove:true,
 						scrollBar: false,
 						scrollHorizontally: true,
 						scrollOverflowReset:true,
