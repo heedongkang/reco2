@@ -148,6 +148,7 @@ $(document).ready(function(){
 	
 	$("body").mousemove(function(e){
 	  if(down){
+		$('.wrapper').stop();
 		$(this).css("cursor", "default");
 	    var newX = e.pageX;
 	    $(".wrapper").scrollLeft(left - newX + x);
