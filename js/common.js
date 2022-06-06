@@ -126,7 +126,7 @@ $(document).ready(function(){
 						}
 					});
 				fullpage_api.reBuild();
-				videoResize();	    	
+				videoResize();	    
             },800);
 		},1800);
 	}
