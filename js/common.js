@@ -53,9 +53,11 @@ $(document).ready(function(){
 								$('#header .menuArea .contact a').css('color','#222');
 							}
 							if(isCheck){
-								//압도적인 처리량 스크롤처리 및 타이틀 이벤트 
+								//압도적인 처리량 스크롤처리 및 타이틀 이벤트
+								//모바일의 가로스크롤 터치를 위해 overflow 변경  
 								if(destination.anchor == '3'){
-									$('.wrapper').stop().animate({scrollLeft:'10000'},15000);									
+									$('.wrapper').stop().animate({scrollLeft:'10000'},15000);
+									$('.wrapper').css('overflow-x','')						
 								}else{
 									$('.wrapper').stop();
 									$('.wrapper').scrollLeft(0);
@@ -137,6 +139,7 @@ $(document).ready(function(){
 	
 	$(".wrapper").mousedown(function(e){
 	  $('.wrapper').stop();
+	  $(this).css("cursor", "pointer");
 	  e.preventDefault();
 	  down = true;
 	  x = e.pageX;
@@ -145,6 +148,7 @@ $(document).ready(function(){
 	
 	$("body").mousemove(function(e){
 	  if(down){
+		$(this).css("cursor", "default");
 	    var newX = e.pageX;
 	    $(".wrapper").scrollLeft(left - newX + x);
 	  }
