@@ -18,12 +18,7 @@
 		left:50%;
 		transform:translateX(-50%);
 	}
-	
-	.mainVisual .bg video[poster]{ 
-	    height:100%;
-	    width:100%;
-    }	
-	
+
 	.mainVisual .txCont{
 		width:100%;
 		position:absolute;
@@ -618,11 +613,6 @@
 		transform:translateX(-50%);
 		height:100%;
 	}
-	
-	.mainVisual .bg video[poster]{ 
-	    height:100%;
-	    width:100%;
-    }		
 	
 	.mainVisual .txCont{
 		width:100%;
