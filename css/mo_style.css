@@ -7,7 +7,7 @@
 	
 	.mainVisual .bg{
 		width:100%;
-		height:100vh;
+		height:100%;
 		overflow:hidden;
 	
 	}
@@ -18,6 +18,11 @@
 		left:50%;
 		transform:translateX(-50%);
 	}
+	
+	.mainVisual .bg video[poster]{ 
+	    height:100%;
+	    width:100%;
+    }	
 	
 	.mainVisual .txCont{
 		width:100%;
@@ -613,6 +618,11 @@
 		transform:translateX(-50%);
 		height:100%;
 	}
+	
+	.mainVisual .bg video[poster]{ 
+	    height:100%;
+	    width:100%;
+    }		
 	
 	.mainVisual .txCont{
 		width:100%;
