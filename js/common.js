@@ -57,7 +57,8 @@ $(document).ready(function(){
 								//모바일의 가로스크롤 터치를 위해 overflow 변경  
 								if(destination.anchor == '3'){
 									$('.wrapper').stop().animate({scrollLeft:'10000'},15000);
-									$('.wrapper').css('overflow-x','')						
+									$('.wrapper').css('overflow-x','')
+									$('.wrapper').css('-webkit-transform-origin-z',0);						
 								}else{
 									$('.wrapper').stop();
 									$('.wrapper').scrollLeft(0);
