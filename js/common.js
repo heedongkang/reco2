@@ -62,14 +62,6 @@ $(document).ready(function(){
 								
 								if($(window).width() <=767){
 								}else{
-									//header 사이즈 조정   
-									if(destination.anchor == '1' ){
-										$('#header .logo').css('width','26%');
-										$('#header .menuArea .contact a').css('font-size','18px');
-									}else{
-										$('#header .logo').css('width','23%');
-										$('#header .menuArea .contact a').css('font-size','17px');
-									}	
 									//빠른견적, 빠른수거 타이틀 이벤트
 									if(destination.anchor == '4'){
 										$('#quick_ani').addClass('animated');
