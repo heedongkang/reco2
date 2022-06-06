@@ -7,13 +7,13 @@
 	
 	.mainVisual .bg{
 		width:100%;
-		height:100%;
+		height:100vh;
 		overflow:hidden;
 	
 	}
 	
 	.mainVisual .bg video{
-		height:100%;
+		height:100vh;
 		position:relative;
 		left:50%;
 		transform:translateX(-50%);
@@ -455,7 +455,7 @@
 	}
 	
 	#scrollbar {
-	  height: 100%;
+	  height: 100vh;
 	  overflow-y: hidden;
 	}	
 	
@@ -611,7 +611,7 @@
 		position:relative;
 		left:50%;
 		transform:translateX(-50%);
-		height:100%;
+		height:100vh;
 	}
 	
 	.mainVisual .txCont{
@@ -1049,7 +1049,7 @@
 	}
 	
 	#scrollbar{
-		height: 100%;
+		height: 100vh;
     	overflow-y: hidden;
 	}
 	
