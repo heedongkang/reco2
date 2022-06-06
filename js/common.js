@@ -47,15 +47,20 @@ $(document).ready(function(){
 						afterLoad: function(origin, destination, direction, trigger){
 							//Contract US 색상변경  
 							if(destination.anchor == '1' ){
-								$('#header .logo').css('width','26%');
-								$('#header .menuArea .contact a').css('font-size','18px');
 								$('#header .menuArea .contact a').css('color','#fff');
 							}else{
-								$('#header .logo').css('width','23%');
-								$('#header .menuArea .contact a').css('font-size','17px');
 								$('#header .menuArea .contact a').css('color','#222');
 							}
 							if(isCheck){
+								//header 사이즈 조정   
+								if(destination.anchor == '1' ){
+									$('#header .logo').css('width','26%');
+									$('#header .menuArea .contact a').css('font-size','18px');
+								}else{
+									$('#header .logo').css('width','23%');
+									$('#header .menuArea .contact a').css('font-size','17px');
+								}	
+								
 								//압도적인 처리량 스크롤처리 및 타이틀 이벤트 
 								if(destination.anchor == '3'){
 									$('.wrapper').stop().animate({scrollLeft:'10000'},15000);									
