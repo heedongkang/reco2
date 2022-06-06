@@ -128,10 +128,29 @@ $(document).ready(function(){
             },800);
 		},1800);
 	}
-	
+
+	//압도적인 처리량 가로스크롤 터치 이벤트 처리 
+	var x,left,down;	
 	$('.wrapper').click(function(){
 		$('.wrapper').stop();
 	});
+	
+	$(".wrapper").mousedown(function(e){
+	  e.preventDefault();
+	  down = true;
+	  x = e.pageX;
+	  left = $(this).scrollLeft();
+	});
+	
+	$("body").mousemove(function(e){
+	  if(down){
+	    var newX = e.pageX;
+	    $(".wrapper").scrollLeft(left - newX + x);
+	  }
+	});
+	
+	$("body").mouseup(function(e){down = false;});
+
 });
 
 function videoResize(){
@@ -153,3 +172,4 @@ function videoResize(){
 		}
 	}
 }
+
