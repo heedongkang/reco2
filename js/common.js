@@ -137,6 +137,10 @@ $(document).ready(function(){
 		$('.wrapper').stop();
 	});
 
+	$(".wrapper").on("touchmove", function(e){
+		$('.wrapper').stop();
+	});
+	
 	$(".wrapper").mousedown(function(e){
 	  $('.wrapper').stop();
 	  $(this).css("cursor", "pointer");
@@ -148,7 +152,6 @@ $(document).ready(function(){
 	
 	$("body").mousemove(function(e){
 	  if(down){
-		$('.wrapper').stop();
 		$(this).css("cursor", "default");
 	    var newX = e.pageX;
 	    $(".wrapper").scrollLeft(left - newX + x);
