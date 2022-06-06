@@ -2,6 +2,7 @@
 	
 	.mainVisual{
 		width:100%;
+		height:100vh;
 		position:relative;
 	}
 	
@@ -597,6 +598,7 @@
 	
 	.mainVisual{
 		width:100%;
+		height:100vh;
 		position:relative;
 	}
 	
@@ -1028,6 +1030,7 @@
 	
 	.portfolio{
 		width:100%;
+		height:100vh;
 		position:relative;
 	}
 	
