@@ -39,7 +39,7 @@ $(document).ready(function(){
 						fitToSection: true,
 						dragAndMove:true,
 						scrollBar: false,
-						scrollHorizontally: true,
+						scrollHorizontally: false,
 						scrollOverflowReset:true,
 						anchors: ['1', '2', '3', '4', '5'],
 						afterResize: function(width, height){
