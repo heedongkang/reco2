@@ -1,0 +1,570 @@
+@media screen and (min-width: 1181px){
+
+.mainVisual{
+	width:100%;
+	position:relative;
+}
+
+.mainVisual .bg{
+	width:100%;
+	height:100vh;
+	overflow:hidden;
+
+}
+
+.mainVisual .bg video{
+	position:relative;
+	left:50%;
+	transform:translateX(-50%);
+}
+
+.mainVisual .txCont{
+	width:100%;
+	position:absolute;
+	top:50%;
+	transform:translate(-50%,-50%);
+	left:50%;
+	z-index:1;
+	text-align:center;
+}
+
+.mainVisual .txCont .tit{
+	font-size:72px;
+	color:#fff;
+	font-family: 'GmarketSansBold';
+	line-height:82px;
+}
+
+.mainVisual .txCont .subTit{
+	font-size:36px;
+	color:#fff;
+	font-family: 'GmarketSansLight';
+	margin-top:20px;
+}
+
+
+
+
+.mainVisual .mouseCont{
+	width:100%;
+	position:absolute;
+	bottom:20px;
+	z-index:1;
+}
+
+
+
+.mainVisual .mouseCont .text{
+	font-size:18px;
+	color:#ffffff;
+	text-align:Center;
+	font-family:'lato';
+}
+
+.mainVisual .mouseCont .ico{
+	width:47px;
+	margin:10px auto 0;
+}
+
+.mainVisual .mouseCont .ico img{
+	width:100%;
+}
+
+
+.titleA{
+	width:100%;
+}
+
+.titleA .subtit{
+	font-size:2.3em;
+	color:#222;
+	word-break:keep-all;
+	margin-top: 30px;
+    font-family: 'GmarketSansBold';
+}
+
+.titleA .tit{
+	font-size:3.7em;
+	color:#1e2e5b;
+	word-break:keep-all;
+	font-family: 'GmarketSansBold';
+}
+
+.titleA .tit div{
+	font-family: 'GmarketSansBold';
+}
+
+.titleA .tit span{
+	color:#77bc28;
+}
+
+.titleA .subsA{
+	font-size:1.5em;
+	margin-top:7px;
+	color:#5b5e5b;
+	font-weight:bold;
+	line-height:36px;
+	width:345px;
+}
+
+.titleA .subs{
+	font-size:1.5em;
+	margin-top:7px;
+	color:#5b5e5b;
+	font-weight:bold;
+	line-height:36px;
+}
+
+.titleA .linkBtn{
+	width:200px;
+	background:#fff;
+	border:1px solid #222;
+	box-sizing:border-box;
+	margin-top:50px;
+}
+
+.titleA .linkBtn a{
+	width:100%;
+	display:block;
+	padding:15px 20px;
+	box-sizing:border-box;
+}
+
+.titleA .linkBtn a .tx{
+	font-size:18px;
+	display:inline-block;
+	vertical-align:Middle;
+	line-height:21px;
+}
+
+.titleA .linkBtn a .arrow{
+	width:11px;
+	display:inline-block;
+	float:right;
+}
+
+.reason{
+	width:100%;
+	max-width: 1900px;
+	display:flex;
+	position:relative;
+	margin: 0 auto;
+}
+
+
+
+.reason .titleArea{
+	margin-left:50px;
+	width:40%;
+	display:inline-block;
+	
+}
+
+
+.reason .titleArea .inner{
+	padding:240px 0px 0px 0px;
+	position:fixed;
+}
+
+
+
+
+.reason .partnerArea{
+	width:60%;
+	display:inline-block;
+	background:#f7f7f7;
+	box-sizing:border-box;
+}
+
+.reason .partnerArea .inner{
+	padding:0px 50px;
+	box-sizing:border-box;
+	
+}
+
+.reason .partnerArea .partnersList{
+	width:100%;
+	box-sizing:border-box;
+	display:inline-block;
+	padding:100px 0px;
+	
+}
+
+.reason .partnerArea .partnersList li{
+	width:27%;
+	display:inline-block;
+	float:left;
+	margin-left:4%;
+	border:1px solid #e5e5e5;
+	box-sizing:border-box;
+	margin-top:22px;
+}
+
+.reason .partnerArea .partnersList li img{
+	width:100%;
+}
+
+
+.reason .partnerArea .partnersList li:nth-child(3n+1){
+	margin-left:0%;
+}
+
+
+.quick{
+	width:100%;
+	background:#f7f7f7;
+	height:100%;
+	box-sizing:border-box;
+	display:contents;
+}
+
+.quick .titleA{
+	width: 100%;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.quick .inner{
+	width:100%;
+	position: relative;
+    display: inline-block;
+}
+
+.quick .inner .titleA{
+	text-align:center;
+}
+
+.quick .inner .titleA .tit{
+	margin-top:15px;
+}
+
+.quick .inner .quickList{
+	max-width:1500px;
+	margin:3% auto 0;
+}
+
+.quick .inner .quickList li{
+	widtH:33%;
+	display:inline-block;
+	padding:0px 30px;
+	box-sizing:border-box;
+}
+
+.quick .inner .quickList .thum{
+	width:50%;
+	margin:0 auto;
+}
+.quick .inner .quickList .thum img{
+	width:100%;
+}
+
+.quick .inner .quickList .subj{
+	font-size:26px;
+	text-align:center;
+	color:#222;
+	font-weight:bold;
+	margin-top:40px;
+	font-family: 'GmarketSansBold';
+}
+
+.quick .inner .quickList .subs{
+	font-size:18px;
+	text-align:center;
+	color:#222;
+	margin-top:20px;
+	word-break:keep-all;
+	line-height:28px;
+}
+
+
+.counsel{
+	width:100%;
+	position:relative;
+	top:-7%
+}
+
+
+.counsel .titleA{
+	width:100%;
+	text-align:center;
+	position:relative;
+}
+
+.counsel .titleA .bgText{
+	font-size:200px;
+	font-weight:bold;
+	font-family:'lato';
+	color:#f7f7f7;
+	position:absolute;
+	z-index:-1;
+	width:100%;
+	text-align:center;
+	left:0;
+	top:-80px;
+	line-height:200px;
+}
+
+.counsel .titleA .tit{
+	margin-top:0px;
+}
+
+
+.counsel .counselList{
+    max-width: 1300px;
+    display: flex;
+    margin: 1% auto;	
+}
+
+.counsel .counselList li{
+	width:25%;
+	display:inline-block;
+	position:relative;
+}
+
+
+.counsel .counselList li .ico{
+	width:25%;
+	margin:0 auto;
+}
+
+.counsel .counselList li .ico img{
+	width:100%;
+}
+
+.counsel .counselList li .num{
+	text-align:center;
+	font-size:28px;
+	color:#77bc28;
+	margin-top:4%;
+	font-family:'lato';
+	font-weight:bold;
+}
+
+.counsel .counselList li .subj{
+	text-align:center;
+	font-size:27px;
+	color:#222222;
+	margin-top:2%;
+}
+
+.counsel .counselList li:after{
+	content:'';
+	position:absolute;
+	background:url(../images/counselArrow.png);
+	width:23px;
+	height:35px;
+	top:50%;
+	transform:translateY(-50%);
+	right:-11px;
+}
+
+.counsel .counselList li:last-child:after{
+	display:none;
+}
+
+
+.counsel .btnList{
+	width:100%;
+	text-align:Center;
+	margin-top:3%;
+}
+
+.counsel .btnList{
+	width:100%;
+	text-align:Center;
+	margin-top:70px;
+}
+.counsel .btnList div{
+	display:inline-block;
+	text-align:Center;
+	border-radius:10px;
+	font-size:1.2em;
+	font-weight:bold;
+}
+
+.counsel .btnList div a{
+	display:block;
+	padding:20px 0;
+	box-sizing:border-box;
+	width:335px;
+}
+
+
+.counsel .btnList .borbtn{
+	border:1px solid #77bc28;
+	color:#77bc28;
+}
+
+.counsel .btnList .borbtn a{
+	color:#77bc28;
+}
+
+
+.counsel .btnList .backbtn{
+	border:1px solid #77bc28;
+	color:#fff;
+	background:#77bc28;
+	margin-left:2%;
+}
+
+.counsel .btnList .backbtn a{
+	color:#fff;
+}
+
+
+.portfolio{
+	width:100%;
+	max-width:1900px;
+	height:100vh;
+	position:relative;
+	margin:0 auto;
+}
+
+.portfolio .txCont{
+	width:40%;
+	position:absolute;
+	padding:100px 50px;
+	background:rgba(255,255,255,0.8);
+	z-index:9;
+	height:100%;
+	top:0;
+	box-sizing:border-box;
+}
+
+
+.portfolio .txCont .inner{
+	width:100%;
+	position:absolute;
+	top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+#scrollbar {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.scrollbar-track-x {
+  height: 1px!important;
+  bottom: 0px!important;
+  margin: 0 auto!important;
+  left: 0!important;
+  right: 0!important;
+  background: rgba(0, 0, 0, 0)!important;
+  
+
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  counter-reset: item;
+  overflow-x: scroll;
+  white-space: nowrap;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.pagination {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: none;
+  display: flex;
+  display:none;
+}
+
+
+
+
+#scrollbar .card-1{
+	margin-left:20px;
+}
+
+#scrollbar .card-2{
+	margin-left:20px;
+	margin-top:450px;
+}
+
+#scrollbar .card-3{
+	margin-left:-240px;
+	margin-top:60px;
+}
+
+#scrollbar .card-4{
+	margin-left:20px;
+	margin-top:480px;
+}
+
+
+#scrollbar .card-5{
+	margin-left:-320px;
+}
+
+#scrollbar .card-6{
+	margin-left:70px;
+	margin-top:290px;
+}
+#scrollbar .card-7{
+	margin-left:20px;
+}
+#scrollbar .card-8{
+	margin-left:-183px;
+	margin-top:425px;
+}
+#scrollbar .card-9{
+	margin-left:20px;
+	margin-top:63px;
+}
+#scrollbar .card-10{
+	margin-left:20px;
+}
+#scrollbar .card-11{
+	margin-left:20px;
+	margin-top:256px;
+}
+#scrollbar .card-12{
+	margin-left:20px;
+}
+#scrollbar .card-13{
+	margin-left:-259px;
+	margin-top:523px;
+}
+#scrollbar .card-14{
+	margin-left:-112px;
+	margin-top:66px;
+}
+#scrollbar .card-15{
+	margin-left:20px;
+	margin-top:406px;
+}
+#scrollbar .card-16{
+	margin-left:20px;
+}
+#scrollbar .card-17{
+	margin-left:20px;
+	margin-top:120px;
+}
+#scrollbar .card-18{
+	margin-left:20px;
+	margin-top:120px;
+}
+#scrollbar .card-19{
+	margin-left:20px;
+}
+#scrollbar .card-20{
+	margin-left:20px;
+	margin-top:120px;
+}
+#scrollbar .card-21{
+	margin-left:20px;
+	margin-top:148px;
+}
+
+}

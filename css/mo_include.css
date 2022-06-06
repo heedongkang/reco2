@@ -1,0 +1,245 @@
+@media screen and (max-width: 1180px){
+	#header{
+		width:100%;
+		display:inline-block;
+		position:absolute;
+		padding:1em 3%;
+		box-sizing:border-box;
+		z-index:2;
+		top:0;
+	}
+	
+	#header .logo{
+		width:120px;
+		display:inline-block;
+	}
+	
+	#header .logo img{
+		width:100%;
+	}
+	
+	#header .menuArea{
+		float:right;
+		display:inline-block;
+	}
+	
+	#header .menuArea .contact{
+		display:inline-block;
+		vertical-align:Middle;
+	}
+	
+	#header .menuArea .contact a{
+		font-size:23px;
+		color:#fff;
+		font-family:'lato','nanumsquare';
+	}
+	
+	#header .menuArea .icoMenu{
+		display:inline-block;
+		vertical-align:Middle;
+	}
+	
+	#header .menuArea .icoMenu li{
+		width:41px;
+		display:inline-block;
+		vertical-aligN:Middle;
+		margin-left:6px;
+	}
+	
+	#header .menuArea .icoMenu li img{
+		width:100%;
+	}
+	
+	
+	#footer{
+		width:100%;
+		display:inline-block;
+		position:absolute;
+		padding:15px 3%;
+		box-sizing:border-box;
+		z-index:9999;
+		bottom:0;
+		background:#111111;
+	}
+	
+	#footer .lfA{
+		display:inline-block;
+	}
+	
+	#footer .lfA .footLogo{
+		width:120px;
+	}
+	
+	#footer .lfA .footLogo img{
+		width:100%;
+	}
+	
+	#footer .lfA .copy{
+		font-size:13px;
+		color:#777;
+		margin-top:20px;
+		line-height:21px;
+		word-break:keep-all;
+	}
+	#footer .rtA{
+		display:inline-block;
+		float:right;
+	}
+	
+	#footer .rtA .subj{
+		text-align:right;
+	}
+	
+	#footer .rtA .subj .ico{
+		width:33px;
+		display:inline-block;
+		vertical-align:middle;
+	}
+	
+	#footer .rtA .subj .ico img{
+		width:100%;
+	}
+	
+	
+	#footer .rtA .subj .tx{
+		font-size:16px;
+		color:#777;
+		display:inline-block;
+		vertical-align:middle;
+	}
+	
+	
+	#footer .rtA .callNum{
+		font-size:30px;
+		color:#999;
+		font-family:'lato';
+		margin-top:10px;
+		font-weight:bold;
+	}
+}
+
+@media screen and (max-width: 767px){
+	#header{
+		width:100%;
+		display:inline-block;
+		position:absolute;
+		padding:1em 3%;
+		box-sizing:border-box;
+		z-index:2;
+		top:0;
+	}
+	
+	#header .logo{
+		width:26%;
+		display:inline-block;
+	}
+	
+	#header .logo img{
+		width:100%;
+	}
+	
+	#header .menuArea{
+		float:right;
+		display:inline-block;
+	}
+	
+	#header .menuArea .contact{
+		display:inline-block;
+		vertical-align:Middle;
+	}
+	
+	#header .menuArea .contact a{
+		font-size:18px;
+		color:#fff;
+		font-family:'lato','nanumsquare';
+	}
+	
+	#header .menuArea .icoMenu{
+		display:inline-block;
+		vertical-align:Middle;
+	}
+	
+	#header .menuArea .icoMenu li{
+		width:41px;
+		display:inline-block;
+		vertical-aligN:Middle;
+		margin-left:6px;
+	}
+	
+	#header .menuArea .icoMenu li img{
+		width:100%;
+	}
+	
+	
+	
+	
+	
+	#footer{
+		width:100%;
+		display:inline-block;
+		position:absolute;
+		padding:2%;
+		box-sizing:border-box;
+		z-index:9999;
+		bottom:0;
+		background:#111111;
+	}
+	
+	#footer .footerArea .lfA{
+		display:inline-block;
+		width: 58%;	
+	}
+	
+	#footer .footerArea .lfA .footLogo{
+		width:80px;
+		display:block;
+	}
+	
+	#footer .footerArea .lfA .footLogo img{
+		width:100%;
+	}
+	
+	
+	
+	#footer .footerArea .lfA .copy{
+	    font-size: 10px;
+	    color: #777;
+	    margin-top: 5px;
+	    line-height: 15px;
+	    display: inline-block;
+	}
+	#footer .footerArea .rtA{
+		display:inline-block;
+		width:42%;
+	}
+	
+	#footer .footerArea .rtA .subj{
+		text-align:right;
+	}
+	
+	#footer .footerArea .rtA .subj .ico{
+		width:23px;
+		display:inline-block;
+	}
+	
+	#footer .footerArea .rtA .subj .ico img{
+		width:100%;
+	}
+	
+	
+	#footer .footerArea .rtA .subj .tx{
+		font-size:16px;
+		color:#777;
+		display:inline-block;
+	}
+	
+	
+	#footer .footerArea .rtA .callNum{
+		font-size:23px;
+		color:#999;
+		font-family:'lato';
+		margin-top:3px;
+		font-weight:bold;
+		text-align:right;
+	}
+}
