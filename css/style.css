@@ -1,6 +1,7 @@
 @media screen and (min-width: 1181px){
 
 .mainVisual{
+    content-visibility: auto;  
 	width:100%;
 	position:relative;
 }
@@ -212,6 +213,7 @@
 
 
 .quick{
+	content-visibility: auto;
 	width:100%;
 	background:#f7f7f7;
 	height:100%;
@@ -281,6 +283,7 @@
 
 
 .counsel{
+	content-visibility: auto;
 	width:100%;
 	position:relative;
 	top:-7%
@@ -416,6 +419,7 @@
 
 
 .portfolio{
+	content-visibility: auto;  
 	width:100%;
 	max-width:1900px;
 	height:100vh;
