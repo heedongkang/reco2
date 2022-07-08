@@ -56,7 +56,7 @@ $(document).ready(function(){
 								//압도적인 처리량 스크롤처리 및 타이틀 이벤트
 								//모바일의 가로스크롤 터치를 위해 overflow 변경  
 								if(destination.anchor == '3'){
-									$('.wrapper').stop().animate({scrollLeft:'15000'},19000);
+									$('.wrapper').stop().animate({scrollLeft:'15000'},25000);
 									$('.wrapper').css('overflow-x','')
 								}else{
 									$('.wrapper').stop();
@@ -95,7 +95,7 @@ $(document).ready(function(){
 								}
 								//압도적인 처리량 스크롤처리 및 타이틀 이벤트 
 								if(destination.anchor == '3'){
-									$('.wrapper').stop().animate({scrollLeft:'12000'},17000);
+									$('.wrapper').stop().animate({scrollLeft:'12000'},24000);
 									//$('#portfolio_ani').addClass('animated');
 						            //$('#portfolio_ani').addClass('shake');
 								}else{
