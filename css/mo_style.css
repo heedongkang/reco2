@@ -581,6 +581,60 @@
 		margin-top:15%;
 	}
 
+	#scrollbar .card-22{
+		margin-left:20px;
+		margin-top:15%;
+	}
+	#scrollbar .card-23{
+		margin-left:20px;
+		margin-top:13%;
+	}
+	#scrollbar .card-24{
+		margin-left:-100px;
+		margin-top:55%;
+	}
+	#scrollbar .card-25{
+		margin-left:-70px;
+		margin-top:20%;
+	}
+	#scrollbar .card-26{
+		margin-left:-120px;
+		margin-top:50%;
+	}
+	#scrollbar .card-27{
+		margin-left:-117px;
+		margin-top:10%;
+	}
+	#scrollbar .card-28{
+		margin-left:-220px;
+		margin-top:41%;
+	}
+	#scrollbar .card-29{
+		margin-left:50px;
+		margin-top:20%;
+	}
+	#scrollbar .card-30{
+		margin-left:40px;
+		margin-top:10%;
+	}
+	#scrollbar .card-31{
+		margin-left:-320px;
+		margin-top:34%;
+	}
+	#scrollbar .card-32{
+		margin-left:-560px;
+		margin-top:60%;
+	}
+	#scrollbar .card-33{
+	    margin-left: 200px;
+	    margin-top: 50%;
+	    margin-right: 100px;
+	    border: 1px solid #222;
+	    height: 35px;
+	    padding: 70px 50px 50px 50px;
+	    font-size: 20px;
+	    font-weight: bold;
+	}	
 
 }
 
@@ -1182,5 +1236,59 @@
 		margin-left:20px;
 		margin-top:15%;
 	}
-	
+
+	#scrollbar .card-22{
+		margin-left:20px;
+		margin-top:15%;
+	}
+	#scrollbar .card-23{
+		margin-left:20px;
+		margin-top:13%;
+	}
+	#scrollbar .card-24{
+		margin-left:20px;
+		margin-top:55%;
+	}
+	#scrollbar .card-25{
+		margin-left:20px;
+		margin-top:20%;
+	}
+	#scrollbar .card-26{
+		margin-left:20px;
+		margin-top:50%;
+	}
+	#scrollbar .card-27{
+		margin-left:20px;
+		margin-top:50%;
+	}
+	#scrollbar .card-28{
+		margin-left:20px;
+		margin-top:41%;
+	}
+	#scrollbar .card-29{
+		margin-left:20px;
+		margin-top:20%;
+	}
+	#scrollbar .card-30{
+		margin-left:20px;
+		margin-top:30%;
+	}
+	#scrollbar .card-31{
+		margin-left:20px;
+		margin-top:80%;
+	}
+	#scrollbar .card-32{
+		margin-left:20px;
+		margin-top:108%;
+	}
+	#scrollbar .card-33{
+	    margin-left: 20px;
+	    margin-top: 80%;
+	    margin-right: 50px;
+	    border: 1px solid #222;
+	    height: 35px;
+	    padding: 70px 50px 50px 50px;
+	    font-size: 20px;
+	    font-weight: bold;
+	}	
 }
